@@ -86,27 +86,30 @@ const Projects = () => {
             slidesPerView: 3,
             spaceBetween: 70,
           },
+          1300: {
+            slidesPerView: 3,
+            spaceBetween: 130,
+          },
         }}
       >
         {images.map((item) => (
-          <SwiperSlide key={item.id}>
-            <div className="flex flex-col items-center relative w-full   rounded-md">
-              <Image
-                src={item.image}
-                width={400}
-                height={300}
-                className="w-full md:w-[400px]  h-auto object-cover  shadow-md"
-                alt={item.title}
-              />
-              <div className=" flex justify-between items-center  rounded-md absolute bottom-0 right-0 left-0 bg-black/60 text-white p-4 text-center">
-                <h3 className=" text-lg whitespace-nowrap ">
-                  {item.title}
-                </h3>
+          <SwiperSlide key={item.id} className="!flex justify-center items-center overflow-hidden">
+  <div className="relative w-full md:w-[400px] aspect-[4/3] rounded-md overflow-hidden shadow-md">
+    <Image
+      src={item.image}
+      fill
+      className="object-cover"
+      alt={item.title}
+    />
+    <div className="absolute bottom-0 left-0 right-0 flex justify-between items-center bg-black/60 text-white p-4">
+      <h3 className="text-lg whitespace-nowrap">{item.title}</h3>
+      <button className="text-primary-900 text-sm transition hover:bg-secondary-700 bg-secondary-600 py-2 px-3 rounded-md">
+        مشاهده
+      </button>
+    </div>
+  </div>
+</SwiperSlide>
 
-                <button className="text-primary-900 text-sm transition hover:bg-secondary-700 bg-secondary-600 py-2 px-3 rounded-md">مشاهده</button>
-              </div>
-            </div>
-          </SwiperSlide>
         ))}
       </Swiper>
     </section>

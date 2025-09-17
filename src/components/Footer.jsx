@@ -5,7 +5,7 @@ import { MdOutlineMailOutline } from "react-icons/md";
 const Footer = () => {
   return (
   <footer className=' bg-primary-800 '>
-    <div className=' mx-auto container grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 py-10 gap-10 md:gap-5 '>
+    <div className='px-6 sm:px-8 md:px-10 xl:px-6 mx-auto max-w-7xl grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 py-10 gap-10 md:gap-5 '>
         <div className=' flex md:items-center  flex-col gap-3'>
             <h1 className='  text-primary-50 md:text-lg text-base'>درباره ما</h1>
             <p className=' text-[10px] text-primary-50'>در هومکس، ما به هوشمندسازی خانه‌ها و ساختمان‌ها با استفاده از جدیدترین تکنولوژی‌های روز دنیا متعهد هستیم. تیم متخصص ما با ارائه راهکارهای نوآورانه و سفارشی، راحتی، امنیت و بهره‌وری انرژی را به خانه‌های شما می‌آورد. با هومکس، زندگی هوشمند را تجربه کنید.</p>

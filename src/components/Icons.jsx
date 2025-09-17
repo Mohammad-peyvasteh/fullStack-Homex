@@ -33,7 +33,7 @@ const items=[
 const Icons = () => {
   return (
     <section className=' bg-primary-50 py-15 '>
-        <div className=' mx-auto container '>
+        <div className='px-6 sm:px-8 md:px-10 xl:px-6 mx-auto max-w-7xl '>
             <div className=' grid md:grid-cols-4 grid-cols-2 gap-3 md:gap-6 lg:gap-8  '>
                 {items.map((item)=>(
                     <div key={item.id} className=' hover:bg-primary-900 duration-300 cursor-pointer transition flex flex-col items-center bg-primary-800 py-5 rounded-2xl    '>

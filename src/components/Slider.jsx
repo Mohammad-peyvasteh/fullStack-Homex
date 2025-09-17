@@ -65,7 +65,7 @@ const Slider = () => {
   const { loading } = useProductContext();
   return (
     <section className="  py-10">
-      <div className="container mx-auto">
+      <div className="px-6 sm:px-8 md:px-10 xl:px-6 max-w-7xl mx-auto">
         <h1 className=" text-center text-primary-800 font-bold text-2xl pb-6">
           دسته بندی محصولات
         </h1>

@@ -52,7 +52,7 @@ const Projects = () => {
   const itenCenter = Math.floor(images.length / 2);
 
   return (
-    <section className="container mx-auto py-20 px-4">
+    <section className="px-6 sm:px-8 md:px-10 xl:px-6 max-w-7xl mx-auto py-20 ">
      <h1 className=" text-center text-primary-800 font-bold  pb-6 xl:text-3xl lg:text-2xl  text-xl">پروژه ها</h1>
       <Swiper
     

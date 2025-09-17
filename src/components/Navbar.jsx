@@ -35,12 +35,12 @@ const Navbar = () => {
   return (
     <header
       className="bg-primary-50  
-         fixed w-full z-20
+         fixed w-full z-50
       "
     >
       <SidebarMenu/>
       <Sidebar />
-      <div className=" container mx-auto py-5 grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-0">
+      <div className="px-6 sm:px-8 md:px-10 xl:px-6 max-w-7xl mx-auto py-5 grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-0">
         <div className=" flex justify-between md:justify-start items-center md:gap-6 ">
           <span className="md:hidden text-3xl text-primary-800">
             <IoMdMenu onClick={() => setShowMenu(!showMenu)} />

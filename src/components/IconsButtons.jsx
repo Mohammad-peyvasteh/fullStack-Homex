@@ -31,7 +31,7 @@ const icons = [
 
 const IconsButtons = () => {
   return (
-    <section className=" container mx-auto  py-8">
+    <section className="px-6 sm:px-8 md:px-10 xl:px-6  max-w-7xl mx-auto  py-8">
       <div className="  grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-6 lg:gap-8 ">
         {icons.map((item) => (
           <Link href={item.src || "#"} key={item.id}>

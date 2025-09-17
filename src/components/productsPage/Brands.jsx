@@ -26,14 +26,14 @@ const brands = [
 
 const Brands = () => {
   return (
-    <section className=" mx-auto container py-10 ">
+    <section className=" px-6 sm:px-8 md:px-10 xl:px-6 max-w-7xl mx-auto py-10 ">
       <div className=" grid grid-cols-2 md:grid-cols-4 gap-3">
         {brands.map((item) => (
           <div
             key={item.id}
             className="flex flex-col items-center justify-between gap-3 border border-tertiary-700 p-3"
           >
-            <Image width={230} height={1} src={item.Image} />
+            <Image width={230} height={1} src={item.Image} alt=""/>
             <p className=" text-primary-800 text-sm text-center">{item.des}</p>
 
             <button className=" hover:bg-primary-900 duration-75 cursor-pointer flex items-center gap-2 bg-primary-800 text-primary-50 py-1 px-2 rounded-md">

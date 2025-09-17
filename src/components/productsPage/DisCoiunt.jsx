@@ -14,7 +14,7 @@ const DisCoiunt = () => {
   const { items ,loading,addToCart} = useProductContext();
 
   return (
-    <section className="pt-45 pb-10 container mx-auto ">
+    <section className="pt-45 pb-10 px-6 sm:px-8 md:px-10 xl:px-6 max-w-7xl mx-auto ">
       <div className="bg-secondary-400 rounded-md flex sm:flex-row flex-col  items-center justify-between gap-6 p-4 lg:p-6 overflow-hidden">
         {/* متن جشنواره */}
         <div className=" lg:w-1/3 flex flex-col items-center gap-2 text-center lg:text-start">
